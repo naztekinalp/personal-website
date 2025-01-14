@@ -1,5 +1,31 @@
 @import "styles/utils";
 
+$blue-bg: #00518a;
+$horn: #ffddab;
+$horn-line: #f4c598;
+
+$pink-light: #ffaeb0;
+$pink-dark: #ff545a;
+
+$purple-eye: #502e75;
+
+$white-face: #eeeeee;
+$white-face-shadow: #e1e1e1;
+
+$grey-leg: #cdd1d2;
+$red-hoof: #ff5654;
+
+$r-red: #ff2220;
+$r-orange: #ffae00;
+$r-yellow: #ffe100;
+$r-green: #85c900;
+$r-blue: #00b0ff;
+$r-purple: #8139df;
+$r-pink: #ff40e1;
+
+$white-cloud: #fff;
+$yellow-star: #f8e545;
+
 @keyframes leg1 {
   to {
     transform: rotate(50deg);
@@ -25,136 +51,144 @@
 }
 
 @keyframes hair {
-
   14% {
-    box-shadow: -15px 18px $r-yellow,
-    -15px 36px $r-green,
-    -12px 54px $r-blue,
-    -15px 72px $r-purple,
-    -8px 90px $r-pink,
-    -15px 108px $r-red,
-    -6px 126px $r-orange,
-    -15px 144px $r-yellow,
-    -8px 162px $r-green,
-    -8px 180px $r-blue;
+    box-shadow:
+      -15px 18px $r-yellow,
+      -15px 36px $r-green,
+      -12px 54px $r-blue,
+      -15px 72px $r-purple,
+      -8px 90px $r-pink,
+      -15px 108px $r-red,
+      -6px 126px $r-orange,
+      -15px 144px $r-yellow,
+      -8px 162px $r-green,
+      -8px 180px $r-blue;
   }
 
   28% {
-    box-shadow: -15px 18px $r-green,
-    -15px 36px $r-blue,
-    -12px 54px $r-purple,
-    -15px 72px $r-pink,
-    -8px 90px $r-red,
-    -15px 108px $r-orange,
-    -6px 126px $r-yellow,
-    -15px 144px $r-green,
-    -8px 162px $r-blue,
-    -8px 180px $r-purple;
+    box-shadow:
+      -15px 18px $r-green,
+      -15px 36px $r-blue,
+      -12px 54px $r-purple,
+      -15px 72px $r-pink,
+      -8px 90px $r-red,
+      -15px 108px $r-orange,
+      -6px 126px $r-yellow,
+      -15px 144px $r-green,
+      -8px 162px $r-blue,
+      -8px 180px $r-purple;
   }
 
   42% {
-    box-shadow: -15px 18px $r-blue,
-    -15px 36px $r-purple,
-    -12px 54px $r-pink,
-    -15px 72px $r-red,
-    -8px 90px $r-orange,
-    -15px 108px $r-yellow,
-    -6px 126px $r-green,
-    -15px 144px $r-blue,
-    -8px 162px $r-purple,
-    -8px 180px $r-pink;
+    box-shadow:
+      -15px 18px $r-blue,
+      -15px 36px $r-purple,
+      -12px 54px $r-pink,
+      -15px 72px $r-red,
+      -8px 90px $r-orange,
+      -15px 108px $r-yellow,
+      -6px 126px $r-green,
+      -15px 144px $r-blue,
+      -8px 162px $r-purple,
+      -8px 180px $r-pink;
   }
 
   56% {
-    box-shadow: -15px 18px $r-purple,
-    -15px 36px $r-pink,
-    -12px 54px $r-red,
-    -15px 72px $r-orange,
-    -8px 90px $r-yellow,
-    -15px 108px $r-green,
-    -6px 126px $r-blue,
-    -15px 144px $r-purple,
-    -8px 162px $r-pink,
-    -8px 180px $r-red;
+    box-shadow:
+      -15px 18px $r-purple,
+      -15px 36px $r-pink,
+      -12px 54px $r-red,
+      -15px 72px $r-orange,
+      -8px 90px $r-yellow,
+      -15px 108px $r-green,
+      -6px 126px $r-blue,
+      -15px 144px $r-purple,
+      -8px 162px $r-pink,
+      -8px 180px $r-red;
   }
 
   70% {
-    box-shadow: -15px 18px $r-pink,
-    -15px 36px $r-red,
-    -12px 54px $r-orange,
-    -15px 72px $r-yellow,
-    -8px 90px $r-green,
-    -15px 108px $r-blue,
-    -6px 126px $r-purple,
-    -15px 144px $r-pink,
-    -8px 162px $r-red,
-    -8px 180px $r-orange;
+    box-shadow:
+      -15px 18px $r-pink,
+      -15px 36px $r-red,
+      -12px 54px $r-orange,
+      -15px 72px $r-yellow,
+      -8px 90px $r-green,
+      -15px 108px $r-blue,
+      -6px 126px $r-purple,
+      -15px 144px $r-pink,
+      -8px 162px $r-red,
+      -8px 180px $r-orange;
   }
 
   85% {
-    box-shadow: -15px 18px $r-red,
-    -15px 36px $r-orange,
-    -12px 54px $r-yellow,
-    -15px 72px $r-green,
-    -8px 90px $r-blue,
-    -15px 108px $r-purple,
-    -6px 126px $r-pink,
-    -15px 144px $r-red,
-    -8px 162px $r-orange,
-    -8px 180px $r-yellow;
+    box-shadow:
+      -15px 18px $r-red,
+      -15px 36px $r-orange,
+      -12px 54px $r-yellow,
+      -15px 72px $r-green,
+      -8px 90px $r-blue,
+      -15px 108px $r-purple,
+      -6px 126px $r-pink,
+      -15px 144px$r-red,
+      -8px 162px $r-orange,
+      -8px 180px $r-yellow;
   }
 
   100% {
-    box-shadow: -15px 18px $r-orange,
-    -15px 36px $r-yellow,
-    -12px 54px $r-green,
-    -15px 72px $r-blue,
-    -8px 90px $r-purple,
-    -15px 108px $r-pink,
-    -6px 126px $r-red,
-    -15px 144px $r-orange,
-    -8px 162px $r-yellow,
-    -8px 180px $r-green;
+    box-shadow:
+      -15px 18px $r-orange,
+      -15px 36px $r-yellow,
+      -12px 54px $r-green,
+      -15px 72px $r-blue,
+      -8px 90px $r-purple,
+      -15px 108px $r-pink,
+      -6px 126px $r-red,
+      -15px 144px $r-orange,
+      -8px 162px $r-yellow,
+      -8px 180px $r-green;
   }
 }
 
 @keyframes tail {
   20% {
     background: $r-orange;
-    box-shadow: 0 18px $r-yellow,
-    60px 36px $r-green,
-    0 54px $r-blue,
-    -20px 72px $r-red;
+    box-shadow:
+      0 18px $r-yellow,
+      60px 36px $r-green,
+      0 54px $r-blue,
+      -20px 72px $r-red;
   }
 
   40% {
     background: $r-yellow;
-    box-shadow: 0 18px $r-green,
-    60px 36px $r-blue,
-    0 54px $r-red,
-    -20px 72px $r-orange;
+    box-shadow:
+      0 18px $r-green,
+      60px 36px $r-blue,
+      0 54px $r-red,
+      -20px 72px $r-orange;
   }
 
   60% {
     background: $r-green;
-    box-shadow: 0 18px $r-blue,
-    60px 36px $r-red,
-    0 54px $r-orange,
-    -20px 72px $r-yellow;
+    box-shadow:
+      0 18px $r-blue,
+      60px 36px $r-red,
+      0 54px $r-orange,
+      -20px 72px $r-yellow;
   }
 
   80% {
     background: $r-blue;
-    box-shadow: 0 18px $r-red,
-    60px 36px $r-orange,
-    0 54px $r-yellow,
-    -20px 72px $r-green;
+    box-shadow:
+      0 18px $r-red,
+      60px 36px $r-orange,
+      0 54px $r-yellow,
+      -20px 72px $r-green;
   }
-
 }
 
 .unicorn_container {
-
   width: 100%;
 }
 
@@ -179,7 +213,7 @@
     width: 40px;
     height: 50px;
 
-    .lines-container {
+    .linesContainer {
       @include box(20px, 50px);
       position: absolute;
       width: 20px;
@@ -190,16 +224,16 @@
       left: 10px;
       background: $horn;
       background: linear-gradient(
-          105deg,
-          $horn 0%,
-          $horn 8%,
-          $horn-line 9%,
-          $horn-line 13%,
-          $horn 14%,
-          $horn 38%,
-          $horn-line 39%,
-          $horn-line 43%,
-          $horn 44%
+        105deg,
+        $horn 0%,
+        $horn 8%,
+        $horn-line 9%,
+        $horn-line 13%,
+        $horn 14%,
+        $horn 38%,
+        $horn-line 39%,
+        $horn-line 43%,
+        $horn 44%
       );
     }
   }
@@ -282,21 +316,22 @@
     margin-left: -100px;
     border-top-left-radius: 30px;
 
-    .inner-hair {
+    .innerHair {
       position: relative;
       @include box(230px, 18px);
       border-radius: 0 9px 9px 0;
       background: $r-red;
-      box-shadow: -15px 18px $r-orange,
-      -15px 36px $r-yellow,
-      -12px 54px $r-green,
-      -15px 72px $r-blue,
-      -8px 90px $r-purple,
-      -15px 108px $r-pink,
-      -6px 126px $r-red,
-      -15px 144px $r-orange,
-      -8px 162px $r-yellow,
-      -8px 180px $r-green;
+      box-shadow:
+        -15px 18px $r-orange,
+        -15px 36px $r-yellow,
+        -12px 54px $r-green,
+        -15px 72px $r-blue,
+        -8px 90px $r-purple,
+        -15px 108px $r-pink,
+        -6px 126px $r-red,
+        -15px 144px $r-orange,
+        -8px 162px $r-yellow,
+        -8px 180px $r-green;
       animation: hair 2s linear infinite;
 
       &::after {
@@ -304,8 +339,12 @@
         @include box(50px, 18px);
         border-radius: 9px;
         right: 0px;
-        box-shadow: -12px 18px $blue-bg, 13px 54px $blue-bg, -6px 90px $blue-bg,
-        14px 126px $blue-bg, -7px 162px $blue-bg;
+        box-shadow:
+          -12px 18px #000,
+          13px 54px #000,
+          -6px 90px #000,
+          14px 126px #000,
+          -7px 162px #000;
       }
     }
   }
@@ -317,7 +356,6 @@
     margin-left: -10px;
     margin-top: -95px;
   }
-
   .body {
     display: flex;
   }
@@ -328,10 +366,10 @@
     left: 200px;
     background: $white-face;
     background: radial-gradient(
-        circle at 250px 65%,
-        #fff 0%,
-        #fff 70px,
-        $white-face 71px
+      circle at 250px 65%,
+      #fff 0%,
+      #fff 70px,
+      $white-face 71px
     );
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 75px;
@@ -352,7 +390,7 @@
       @include box(20px, 70px);
       left: -20px;
       top: -20px;
-      background-color: $blue-bg;
+      background-color: #000000;
     }
   }
 
@@ -364,10 +402,11 @@
     left: 100px;
     top: 20px;
     background: $r-red;
-    box-shadow: 0 18px $r-orange,
-    60px 36px $r-yellow,
-    0 54px $r-green,
-    -20px 72px $r-blue;
+    box-shadow:
+      0 18px $r-orange,
+      60px 36px $r-yellow,
+      0 54px $r-green,
+      -20px 72px $r-blue;
     animation: tail 1.5s linear infinite;
 
     &::after {
@@ -375,21 +414,18 @@
       @include box(70px, 18px);
       border-radius: 9px;
       right: 0px;
-      box-shadow: 10px 18px $blue-bg, 10px 54px $blue-bg;
+      box-shadow:
+        10px 18px #000,
+        10px 54px #000;
     }
 
     &::before {
       @include ps;
       @include box(120px, 120px);
       border-radius: 50%;
-      background-color: $blue-bg;
       bottom: -140px;
       left: 10px;
-      background: linear-gradient(
-          220deg,
-          $blue-bg 0%,
-          $blue-bg 55%,
-          transparent 56%);
+      background-color: #000000;
     }
 
     .inner-tail {
@@ -448,7 +484,7 @@
       top: -10px;
       left: 250px;
       transform-origin: top left;
-      animation: leg2 1s .15s ease-in-out infinite alternate;
+      animation: leg2 1s 0.15s ease-in-out infinite alternate;
 
       &::before {
         @include ps;
