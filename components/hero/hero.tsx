@@ -30,7 +30,7 @@ const Hero = () => {
   return (
     <div className={style.hero__container}>
       <Unicorn />
-      <h1 className={style.hero__title}>Hi, I'm Naz</h1>
+      <h1 className={style.hero__title}>Hey, I'm Naz Tekinalp</h1>
 
       <p className={style.hero__subtitle}>
         Currently, I'm working at EPAM Systems as Senior Software QA Engineer.
