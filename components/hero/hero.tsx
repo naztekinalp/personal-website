@@ -38,7 +38,7 @@ const Hero = () => {
 
       <div className={style.hero__links}>
         <Link
-          href="https://github.com/naztekinalpp"
+          href="https://github.com/naztekinalp"
           target="_blank"
           rel="noreferrer noopener"
           title="GitHub"
