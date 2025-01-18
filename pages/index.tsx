@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Naz Tekinalp</title>
-        <meta name="description" content="Hi, I’m Naz! Welcome to my corner of the web! I’m a Senior Software QA Engineer passionate about high-quality products and sharing my tech journey. Let’s connect! ✨" />
+        <meta name="description" content="Hi, I’m Naz! Welcome to my corner of the web! I’m a Senior Software QA Engineer passionate about high-quality products and sharing my tech journey. Let’s connect!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
