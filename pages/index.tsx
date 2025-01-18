@@ -11,8 +11,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Naz Tekinalp</title>
         <meta name="description" content="Hi, I’m Naz! Welcome to my corner of the web! I’m a Senior Software QA Engineer passionate about high-quality products and sharing my tech journey. Let’s connect!" />
-        <link rel="shortcut icon" href="/PATH_TO_STATIC_FAVICON/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/PATH_TO_ANIMATED_FAVICON/favicon.ico" type="image/x-icon"></link>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Header />
