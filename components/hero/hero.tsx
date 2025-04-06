@@ -33,7 +33,8 @@ const Hero = () => {
       <h1 className={style.hero__title}>Hey, I'm Naz 🎀 </h1>
 
       <p className={style.hero__subtitle}>
-        Currently, I'm working at EPAM Systems as Senior Software QA Engineer.
+        I’m a Senior Software QA Engineer with a passion for QA, tech, and continuous improvement.👩🏼‍💻
+        Let’s connect! ✨
       </p>
 
       <div className={style.hero__links}>
