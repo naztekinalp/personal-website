@@ -33,7 +33,7 @@ const Hero = () => {
       <h1 className={style.hero__title}>Hey, I'm Naz 🎀 </h1>
 
       <p className={style.hero__subtitle}>
-        Senior Software QA Engineer with a passion tech 👩🏼‍💻
+        Senior Software QA Engineer with a passion to tech 👩🏼‍💻
         Let’s connect! ✨
       </p>
 
